@@ -15,7 +15,7 @@ use App\Http\Controllers\HomeController;
 
 Route::middleware(['auth'])->group(function(){
     Route::get('/', [HomeController::class,'inicio'])->name('inicio');
-    Route::get('/admin', [HomeController::class,'admin'])->name('admin');
+    Route::get('/modulo/{id}', [HomeController::class,'modulo'])->name('modulo');
     Route::get('/contabilidad', [HomeController::class,'contabilidad'])->name('contabilidad');
     Route::get('/planillas', [HomeController::class,'planillas'])->name('planillas');
     Route::get('/activo-fijo', [HomeController::class,'activoFijo'])->name('activoFijo');

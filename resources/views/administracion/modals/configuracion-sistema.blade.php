@@ -273,9 +273,9 @@
          </div>
 
          <div class="modal-footer">
-             <button type="submit" class="btn-primary">Guardar</button>
-             <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal"><i
-                     class="fa-solid fa-floppy-disk"></i>CERRAR</button>
+             <button type="submit" class="btn btn-primary btn-sm"><i class="fa-solid fa-floppy-disk"></i>
+                 Guardar</button>
+             <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">CERRAR</button>
              {{-- <button type="button" class="btn btn-primary btn-sm"></button> --}}
          </div>
      </div>

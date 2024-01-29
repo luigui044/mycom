@@ -13,7 +13,19 @@ class HomeController extends Controller
         return view('inicio',compact('modulos'));
     }
 
-    function admin(){
-        return view('administracion.administracion');
+    function modulo($id){
+        
+        switch ($id) {
+            case 1:
+                    $subModulos = TModulo::where('modulo_padre',1)->get();
+                    return view('administracion.administracion',compact('subModulos'));
+                break;
+            
+            default:
+                return '404 not found';
+                break;
+        }
+
+        
     }
 }
