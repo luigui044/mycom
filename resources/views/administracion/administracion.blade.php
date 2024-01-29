@@ -68,7 +68,7 @@
                 </div>
                 <hr style="color: white; background: white;">
                 <div class="card-body pt-0">
-                    <a class="btn btn-rounded btn-dark">Acceder</a>
+                    <a onclick="activeModal('modalSelectEmpresa')" class="btn btn-rounded btn-dark">Acceder</a>
 
                 </div>
             </div>
@@ -81,6 +81,7 @@
 
     @include('administracion.modals.configuracion-sistema')
     @include('administracion.modals.empresas')
+    @include('administracion.modals.elegir-empresa')
 @endsection
 
 @section('custom-scripts')
