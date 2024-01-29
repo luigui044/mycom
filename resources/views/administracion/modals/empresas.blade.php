@@ -2,7 +2,7 @@
  <div class="modal fade" id="modalEmpresas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
      <!-- Change class .modal-sm to change the size of the modal -->
-     <div class="modal-dialog modal-fluid" role="document">
+     <div class="modal-dialog modal-xl" role="document">
 
 
          <div class="modal-content">
@@ -53,7 +53,7 @@
                                  <!-- Classic tabs -->
                                  <div class="classic-tabs">
 
-                                     <ul class="nav tabs-cyan" id="datosGeneralesTab" role="tablist">
+                                     <ul class="nav tabs-indigo" id="datosGeneralesTab" role="tablist">
                                          <li class="nav-item">
                                              <a class="nav-link  waves-light active show"
                                                  id="datosGenerales-tab-classic" data-toggle="tab"
@@ -248,7 +248,7 @@
                                                      <textarea class="form-control rounded-0" id="direccion" name="direccion" rows="3"></textarea>
 
                                                  </div>
-                                                 <div class="col-md-3  custom-control custom-checkbox">
+                                                 <div class="col-md-4 custom-control custom-checkbox">
                                                      <label for="name">Departamento:</label>
 
                                                      <select class="browser-default custom-select form-control-sm"
@@ -272,17 +272,17 @@
                                                      </select>
 
                                                  </div>
-                                                 <div class="col-md-4 form-group">
+                                                 <div class="col-md-3 form-group">
                                                      <label for="nPatronal">Número patronal:</label>
                                                      <input class="form-control form-control-sm" type="text"
                                                          id="nPatronal" name="nPatronal">
                                                  </div>
-                                                 <div class="col-md-4 form-group">
+                                                 <div class="col-md-3 form-group">
                                                      <label for="telefonos">Teléfonos:</label>
                                                      <input class="form-control form-control-sm" type="text"
                                                          id="telefonos" name="telefonos">
                                                  </div>
-                                                 <div class="col-md-4 form-group">
+                                                 <div class="col-md-3 form-group">
                                                      <label for="actividad">Actividad económica:</label>
                                                      <input class="form-control form-control-sm" type="text"
                                                          id="actividad" name="actividad">

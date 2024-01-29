@@ -50,7 +50,7 @@
                 </div>
                 <hr style="color: white; background: white;">
                 <div class="card-body pt-0">
-                    <a onclick="" class="btn btn-rounded btn-dark">Acceder</a>
+                    <a onclick="activeModal('modalSistema')" class="btn btn-rounded btn-dark">Acceder</a>
 
                 </div>
             </div>
@@ -79,6 +79,7 @@
 @section('modal')
     @include('administracion.modals.usuarios')
 
+    @include('administracion.modals.configuracion-sistema')
     @include('administracion.modals.empresas')
 @endsection
 
@@ -96,6 +97,10 @@
         .font-options {
             font-size: 15px !important;
             padding: 0.5rem 0.9rem !important;
+        }
+
+        .custom-text-span {
+            font-size: 12px;
         }
     </style>
 @endsection
