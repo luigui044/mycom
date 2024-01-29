@@ -277,6 +277,16 @@
                                                      <input class="form-control form-control-sm" type="text"
                                                          id="nPatronal" name="nPatronal">
                                                  </div>
+                                                 <div class="col-md-4 form-group">
+                                                     <label for="telefonos">Teléfonos:</label>
+                                                     <input class="form-control form-control-sm" type="text"
+                                                         id="telefonos" name="telefonos">
+                                                 </div>
+                                                 <div class="col-md-4 form-group">
+                                                     <label for="actividad">Actividad económica:</label>
+                                                     <input class="form-control form-control-sm" type="text"
+                                                         id="actividad" name="actividad">
+                                                 </div>
                                              </div>
                                          </div>
 
