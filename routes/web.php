@@ -16,13 +16,7 @@ use App\Http\Controllers\HomeController;
 Route::middleware(['auth'])->group(function(){
     Route::get('/', [HomeController::class,'inicio'])->name('inicio');
     Route::get('/modulo/{id}', [HomeController::class,'modulo'])->name('modulo');
-    Route::get('/planillas', [HomeController::class,'planillas'])->name('planillas');
-    Route::get('/activo-fijo', [HomeController::class,'activoFijo'])->name('activoFijo');
-    Route::get('/fact-invent', [HomeController::class,'factInvent'])->name('factInvent');
-    Route::get('/iva', [HomeController::class,'iva'])->name('iva');
-    Route::get('/cuentas-pago', [HomeController::class,'cuentasPago'])->name('cuentasPago');
-    Route::get('/cuentas-cobro', [HomeController::class,'cuentasCobro'])->name('cuentasCobro');
-    Route::get('/bancos', [HomeController::class,'bancos'])->name('bancos');
+
 });
 
 
