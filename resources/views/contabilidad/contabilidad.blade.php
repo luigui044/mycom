@@ -16,10 +16,11 @@
     </div>
 @endsection
 @section('modal')
-    @include('administracion.modals.usuarios')
+    {{-- @include('administracion.modals.usuarios')
 
     @include('administracion.modals.configuracion-sistema')
     @include('administracion.modals.empresas')
+     --}}
     @include('administracion.modals.elegir-empresa')
 @endsection
 

@@ -1,6 +1,6 @@
 <div class="col-md-3 text-center">
     <!-- Card -->
-    <div class="card {{ $color }} white-text">
+    <div class="card {{ $color }} @if ($darken != '0') {{ $darken }} @endif white-text">
         <div class="card-body pb-0">
             <i class="fas {{ $icon }} fa-3x pb-4"></i>
             <div class="d-flex justify-content-center">
