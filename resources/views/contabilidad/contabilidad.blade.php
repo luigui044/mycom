@@ -16,11 +16,7 @@
     </div>
 @endsection
 @section('modal')
-    {{-- @include('administracion.modals.usuarios')
-
-    @include('administracion.modals.configuracion-sistema')
-
-     --}}
+    @include('contabilidad.modals.procesamiento-partidas')
     @include('contabilidad.modals.catalogo-cuentas')
     @include('administracion.modals.elegir-empresa')
 @endsection

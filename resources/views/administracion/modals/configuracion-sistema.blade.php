@@ -65,7 +65,7 @@
                                      <div class="card-body">
                                          <h5 class="card-title text-danger text-bold">Últimos comprobantes emitidos</h5>
                                          <div class="row ">
-                                             <div class="col-md-12  custom-control custom-checkbox">
+                                             <div class="col-md-12 ">
                                                  <label for="name">Punto de venta:</label>
 
                                                  <select class="browser-default custom-select form-control-sm"
