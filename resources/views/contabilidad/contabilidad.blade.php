@@ -19,8 +19,9 @@
     {{-- @include('administracion.modals.usuarios')
 
     @include('administracion.modals.configuracion-sistema')
-    @include('administracion.modals.empresas')
+
      --}}
+    @include('contabilidad.modals.catalogo-cuentas')
     @include('administracion.modals.elegir-empresa')
 @endsection
 
