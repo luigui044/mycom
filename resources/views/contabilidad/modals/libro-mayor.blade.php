@@ -1,6 +1,5 @@
  <!-- Central Modal Small -->
- <div class="modal fade" id="modalLibroDiario" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-     aria-hidden="true">
+ <div class="modal fade" id="modalLibroMayor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
      <!-- Change class .modal-sm to change the size of the modal -->
      <div class="modal-dialog modal-lg" role="document">
@@ -40,20 +39,7 @@
 
                                          </div>
                                          <div class="row  ">
-                                             <div class="col-md-12 ">
-                                                 <div class="form-group form-inline ">
-                                                     <label for="tpartida" class="mr-1">Tipo de partida a imprimir:
-                                                     </label>
 
-                                                     <select class="browser-default custom-select form-control-sm"
-                                                         id="tpartida" name="tpartida">
-                                                         <option selected>Open this select menu</option>
-                                                         <option value="1">One</option>
-                                                         <option value="2">Two</option>
-                                                         <option value="3">Three</option>
-                                                     </select>
-                                                 </div>
-                                             </div>
                                              <div class="col-md-12 ">
                                                  <div class="form-group form-inline">
                                                      <label for="titulo" class="mr-1">Título del reporte:
@@ -63,27 +49,23 @@
                                                  </div>
                                              </div>
                                              <div class="col-md-12 ">
+                                                 <div class="form-group form-inline">
+                                                     <label for="concepto" class="mr-1">Concepto para cada
+                                                         transacción:
+                                                     </label>
+                                                     <input type="text" class="form-control" id="concepto"
+                                                         name="concepto">
+                                                 </div>
+                                             </div>
+                                             <div class="col-md-12 ">
                                                  <!-- Default unchecked -->
                                                  <div class="custom-control custom-checkbox">
-                                                     <input type="checkbox" class="custom-control-input"
-                                                         id="saltoPagina" name="saltoPagina">
-                                                     <label class="custom-control-label" for="saltoPagina">Generar
-                                                         salto de página después de
-                                                         cada partida</label>
+                                                     <input type="checkbox" class="custom-control-input" id="numerar"
+                                                         name="numerar">
+                                                     <label class="custom-control-label" for="numerar">
+                                                         Numerar páginas</label>
                                                  </div>
-                                                 <div class="custom-control custom-checkbox">
-                                                     <input type="checkbox" class="custom-control-input"
-                                                         id="incluirFirmantes" name="incluirFirmantes">
-                                                     <label class="custom-control-label" for="incluirFirmantes">Incluir
-                                                         firmantes en el
-                                                         reporte</label>
-                                                 </div>
-                                                 <div class="custom-control custom-checkbox">
-                                                     <input type="checkbox" class="custom-control-input"
-                                                         id="numerarPagina" name="numerarPagina">
-                                                     <label class="custom-control-label" for="numerarPagina">Numerar
-                                                         páginas</label>
-                                                 </div>
+
                                              </div>
 
                                          </div>
