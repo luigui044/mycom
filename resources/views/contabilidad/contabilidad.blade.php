@@ -16,6 +16,7 @@
     </div>
 @endsection
 @section('modal')
+    @include('contabilidad.modals.balance-general')
     @include('contabilidad.modals.balance-comprobacion')
 
     @include('contabilidad.modals.estado-resultados')
