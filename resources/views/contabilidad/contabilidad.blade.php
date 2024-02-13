@@ -16,6 +16,8 @@
     </div>
 @endsection
 @section('modal')
+    @include('contabilidad.modals.libro-diario')
+
     @include('contabilidad.modals.procesamiento-partidas')
     @include('contabilidad.modals.catalogo-cuentas')
     @include('administracion.modals.elegir-empresa')
