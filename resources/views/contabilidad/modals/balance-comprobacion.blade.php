@@ -1,5 +1,5 @@
  <!-- Central Modal Small -->
- <div class="modal fade" id="modalEstadoResultados" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+ <div class="modal fade" id="modalBalanceComprobacion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
 
      <!-- Change class .modal-sm to change the size of the modal -->
@@ -8,7 +8,7 @@
 
          <div class="modal-content">
              <div class="modal-header">
-                 <h4 class="modal-title w-100" id="myModalLabel">Estado de resultados</h4>
+                 <h4 class="modal-title w-100" id="myModalLabel">Balance de comprobación</h4>
                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                      <span aria-hidden="true">&times;</span>
                  </button>
@@ -45,9 +45,22 @@
                                              </div>
                                              <div class="col-md-12">
                                                  <div class="form-group form-inline">
-                                                     <label for="nivel" class="mx-2">Nivel de impresión: </label>
-                                                     <input type="number" class="form-control" id="nivel"
-                                                         name="nivel">
+                                                     <label for="titulo" class="mr-1">Nivel de impresion:
+                                                     </label>
+                                                     <div class="form-check">
+                                                         <input type="radio" class="form-check-input"
+                                                             id="tipoBalance1" name="tipoBalance">
+                                                         <label class="form-check-label"
+                                                             for="tipoBalance1">Mayor</label>
+                                                     </div>
+
+                                                     <!-- Material checked -->
+                                                     <div class="form-check">
+                                                         <input type="radio" class="form-check-input"
+                                                             id="tipoBalance2" name="tipoBalance" checked>
+                                                         <label class="form-check-label"
+                                                             for="tipoBalance1">Detalle</label>
+                                                     </div>
                                                  </div>
                                              </div>
 
