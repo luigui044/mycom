@@ -16,6 +16,7 @@
     </div>
 @endsection
 @section('modal')
+    @include('contabilidad.modals.libro-auxiliar-mayor')
     @include('contabilidad.modals.libro-mayor')
 
     @include('contabilidad.modals.libro-diario')
