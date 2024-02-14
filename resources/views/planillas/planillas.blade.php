@@ -20,6 +20,8 @@
 
     @include('administracion.modals.empresas')
      --}}
+    @include('planillas.modals.procesamiento-planillas')
+
     @include('planillas.modals.catalogo-bancos')
 
     @include('planillas.modals.catalogo-afp')
