@@ -18,9 +18,12 @@
 @section('modal')
     {{-- @include('administracion.modals.usuarios')
 
-    @include('administracion.modals.configuracion-sistema')
     @include('administracion.modals.empresas')
      --}}
+    @include('planillas.modals.catalogo-bancos')
+
+    @include('planillas.modals.catalogo-afp')
+
     @include('administracion.modals.elegir-empresa')
 @endsection
 
