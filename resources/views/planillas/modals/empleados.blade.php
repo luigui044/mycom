@@ -549,7 +549,7 @@
                                              </div>
                                              <div class="d-flex justify-content-center">
                                                  <div class="btn btn-mdb-color btn-rounded float-left">
-                                                     <span>Choose file</span>
+                                                     <span>Cambiar fotografía...</span>
                                                      <input type="file"
                                                          onchange="displaySelectedImage(event, 'selectedImage')">
                                                  </div>
