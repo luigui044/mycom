@@ -21,6 +21,8 @@
     @include('administracion.modals.configuracion-sistema')
     @include('administracion.modals.empresas')
      --}}
+    @include('activo-fijo.modals.depreciacion-individual')
+
     @include('activo-fijo.modals.archivos')
     @include('activo-fijo.modals.ubicaciones')
 
