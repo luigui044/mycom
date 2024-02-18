@@ -6,6 +6,8 @@
   <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="{{ asset('js/mdb.min.js') }}"></script>
+  <script type="text/javascript" src="{{ asset('js/addons/datatables2.min.js') }}"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <script>

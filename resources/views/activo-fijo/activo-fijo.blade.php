@@ -21,6 +21,9 @@
     @include('administracion.modals.configuracion-sistema')
     @include('administracion.modals.empresas')
      --}}
+    @include('activo-fijo.modals.archivos')
+    @include('activo-fijo.modals.ubicaciones')
+
     @include('activo-fijo.modals.clases-activo')
 
     @include('administracion.modals.elegir-empresa')
@@ -48,6 +51,10 @@
                 reader.readAsDataURL(fileInput.files[0]);
             }
         }
+        $(document).ready(function() {
+            $('#table-ubicaciones').dataTable();
+            $('.dataTables_length').addClass('bs-select');
+        });
     </script>
 @endsection
 
