@@ -15,12 +15,10 @@
 
     </div>
 @endsection
-@section('modal')
-    {{-- @include('administracion.modals.usuarios')
 
-    @include('administracion.modals.configuracion-sistema')
-    @include('administracion.modals.empresas')
-     --}}
+@section('modal')
+    @include('facturacion-inventarios.modals.grupos')
+
     @include('administracion.modals.elegir-empresa')
 @endsection
 

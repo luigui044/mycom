@@ -38,7 +38,7 @@ class HomeController extends Controller
                 break;
             case 5:
                     $subModulos = TModulo::where('modulo_padre',$id)->orWhere('modulo_padre',99)->orderBy('modulo_padre')->get();
-                    return view('activo-fijo.activo-fijo',compact('subModulos'));
+                    return view('facturacion-inventarios.facturacion-inventarios',compact('subModulos'));
                 break;
             case 6:
                     $subModulos = TModulo::where('modulo_padre',$id)->orWhere('modulo_padre',99)->orderBy('modulo_padre')->get();
