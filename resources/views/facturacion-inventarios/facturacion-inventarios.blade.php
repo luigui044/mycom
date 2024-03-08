@@ -22,6 +22,7 @@
     @include('facturacion-inventarios.modals.productos')
     @include('facturacion-inventarios.modals.ventas-facturacion')
     @include('facturacion-inventarios.modals.pedidos-mercaderia')
+    @include('facturacion-inventarios.modals.tarjeta-kardex')
 
     @include('administracion.modals.elegir-empresa')
 @endsection
