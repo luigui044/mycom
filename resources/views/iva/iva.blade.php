@@ -25,6 +25,9 @@
 
     @include('iva.modals.compras-regitros-gastos')
     @include('iva.modals.comprobante-retencion')
+    @include('iva.modals.libro-ventas-contribuyente')
+    @include('iva.modals.libro-ventas-consumidor-final')
+    @include('iva.modals.libro-compras')
 @endsection
 
 @section('custom-scripts')
