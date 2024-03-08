@@ -21,7 +21,9 @@
     @include('administracion.modals.configuracion-sistema')
     @include('administracion.modals.empresas')
      --}}
-    @include('administracion.modals.elegir-empresa')
+    @include('administracion.modals.empresas')
+
+    @include('iva.modals.compras-regitros-gastos')
 @endsection
 
 @section('custom-scripts')
