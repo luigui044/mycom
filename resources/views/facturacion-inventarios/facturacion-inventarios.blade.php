@@ -18,10 +18,10 @@
 
 @section('modal')
     @include('facturacion-inventarios.modals.compras')
-
     @include('facturacion-inventarios.modals.grupos')
     @include('facturacion-inventarios.modals.productos')
-
+    @include('facturacion-inventarios.modals.ventas-facturacion')
+    @include('facturacion-inventarios.modals.pedidos-mercaderia')
 
     @include('administracion.modals.elegir-empresa')
 @endsection
