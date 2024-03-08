@@ -8,7 +8,7 @@
 
         <div class="modal-content">
             <div class="modal-header bg-primary text-white ">
-                <h4 class="modal-title font-weight-bold" id="myModalLabel">Compras (cargar inventario)</h4>
+                <h4 class="modal-title font-weight-bold" id="myModalLabel">Ventas y Facturación</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
