@@ -24,6 +24,7 @@
     @include('administracion.modals.empresas')
 
     @include('iva.modals.compras-regitros-gastos')
+    @include('iva.modals.comprobante-retencion')
 @endsection
 
 @section('custom-scripts')
