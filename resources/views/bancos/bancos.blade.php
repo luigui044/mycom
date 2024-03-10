@@ -23,6 +23,7 @@
      --}}
     @include('administracion.modals.elegir-empresa')
     @include('bancos.modals.libro-bancos')
+    @include('bancos.modals.mantenimiento-bancos')
 @endsection
 
 @section('custom-scripts')
