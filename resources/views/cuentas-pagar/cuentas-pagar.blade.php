@@ -21,6 +21,8 @@
     @include('administracion.modals.configuracion-sistema')
     @include('administracion.modals.empresas')
      --}}
+    @include('cuentas-pagar.modals.abonos')
+
     @include('administracion.modals.elegir-empresa')
 @endsection
 
