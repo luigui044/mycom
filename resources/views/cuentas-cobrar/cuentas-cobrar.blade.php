@@ -23,6 +23,7 @@
      --}}
     @include('administracion.modals.elegir-empresa')
     @include('cuentas-cobrar.modals.cuentas-clientes')
+    @include('cuentas-cobrar.modals.abonos')
 @endsection
 @section('custom-scripts')
     <script>
