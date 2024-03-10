@@ -22,4 +22,26 @@
     @include('administracion.modals.empresas')
      --}}
     @include('administracion.modals.elegir-empresa')
+    @include('cuentas-cobrar.modals.cuentas-clientes')
+@endsection
+@section('custom-scripts')
+    <script>
+        function activeModal(title) {
+
+            $('#' + title).modal('toggle');
+        }
+    </script>
+@endsection
+
+@section('custom-styles')
+    <style>
+        .font-options {
+            font-size: 15px !important;
+            padding: 0.5rem 0.9rem !important;
+        }
+
+        .custom-text-span {
+            font-size: 12px;
+        }
+    </style>
 @endsection
