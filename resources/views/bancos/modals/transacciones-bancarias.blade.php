@@ -1,11 +1,20 @@
 <!-- Central Modal Small -->
-<div class="modal fade" id="modalProcesamientoCheques" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+<div class="modal fade" id="modalTransaccionesBancarias" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
     aria-hidden="true">
 
     <!-- Change class .modal-sm to change the size of the modal -->
     <div class="modal-dialog modal-xl" role="document">
 
-
+        <div class="col-md-12 text-right">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="contabilizar" name="contabilizar">
+                <label class="custom-control-label" for="contabilizar">Contabilizar</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="conciliacion" name="conciliacion">
+                <label class="custom-control-label" for="conciliacion">Incluir en conciliación</label>
+            </div>
+        </div>
         <div class="modal-content">
             <div class="modal-header bg-primary text-white ">
                 <h4 class="modal-title font-weight-bold" id="myModalLabel">Procesamiento de cheques</h4>
@@ -20,13 +29,7 @@
                     <form action="" method="POST">
                         @csrf
                         <div class="row mb-4">
-                            <div class="col-md-12 text-right">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="imprimirCheck"
-                                        name="imprimirCheck">
-                                    <label class="custom-control-label" for="imprimirCheck">Cheque impreso</label>
-                                </div>
-                            </div>
+
 
                             <div class="col-md-6">
                                 <label for="banco">Banco</label>
@@ -38,37 +41,36 @@
                                     <option value="3">Three</option>
                                 </select>
                             </div>
-                            <div class="col-lg-5">
-                                <label for="noCheque">Número de cheque</label>
-                                <input class="form-control" type="text" id="noCheque" name="noCheque" />
+                            <div class="col-lg-3">
+                                <label for="tipoTransaccion">Tipo de transacción</label>
+                                <select class="browser-default custom-select form-control form-control-sm mb-2"
+                                    id="tipoTransaccion" name="tipoTransaccion">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
                             </div>
-                            <div class="col-md-3 form-group">
-                                <label for="nombreCheque">A nombre de</label>
-                                <input type="text" name="nombreCheque" id="nombreCheque"
-                                    class="form-control form-control-sm">
-                                <a class="btn btn-info btn-sm btn-rounded font-options" data-toggle="popover"
-                                    data-placement="top" data-trigger="hover" title="Buscar"><i
-                                        class="fas fa-binoculars"></i></a>
-                            </div>
+                            <div class="col-lg-6">
+                                <label for="concepto">Concepto </label>
 
-                            <div class="col-lg-5">
-                                <label for="fechaCheque">Fecha de cheque</label>
-                                <input class="form-control" type="date" id="fechaCheque" name="fechaCheque" />
+                                <textarea name="concepto" class="form-control" id="concepto" cols="30" rows="2"></textarea>
                             </div>
                             <div class="col-lg-3">
-                                <label for="conceptoCheque">Concepto de cheque</label>
-
-                                <textarea name="conceptoCheque" class="form-control" id="conceptoCheque" cols="30" rows="2"></textarea>
+                                <label for="fechaTransaccion">Fecha de transaccion</label>
+                                <input class="form-control" type="date" id="fechaTransaccion"
+                                    name="fechaTransaccion" />
                             </div>
 
+
                             <div class="col-lg-3">
-                                <label for="valorCheque">Valor del cheque</label>
+                                <label for="valorCheque">Monto de la transacción</label>
                                 <input class="form-control" type="text" id="valorCheque" name="valorCheque" />
                             </div>
-                            <div class="col-lg-2">
-                                <label for="noPartida">No. Partida</label>
-                                <select class="browser-default custom-select form-control form-control-sm mb-2"
-                                    id="noPartida" name="noPartida">
+                            <div class="col-lg-8 form-group form-inline mt-2">
+                                <label for="noPartida" class="mx-2">No. Partida</label>
+                                <select class="browser-default custom-select form-control mx-2 " id="noPartida"
+                                    name="noPartida">
                                     <option selected>Open this select menu</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>

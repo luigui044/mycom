@@ -25,6 +25,7 @@
     @include('bancos.modals.libro-bancos')
     @include('bancos.modals.mantenimiento-bancos')
     @include('bancos.modals.procesamiento-cheques')
+    @include('bancos.modals.transacciones-bancarias')
 @endsection
 
 @section('custom-scripts')
