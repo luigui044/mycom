@@ -23,6 +23,7 @@
      --}}
     @include('cuentas-pagar.modals.abonos')
     @include('cuentas-pagar.modals.proveedores')
+    @include('cuentas-pagar.modals.quedan')
 
     @include('administracion.modals.elegir-empresa')
 @endsection
