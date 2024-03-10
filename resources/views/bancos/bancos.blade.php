@@ -24,6 +24,7 @@
     @include('administracion.modals.elegir-empresa')
     @include('bancos.modals.libro-bancos')
     @include('bancos.modals.mantenimiento-bancos')
+    @include('bancos.modals.procesamiento-cheques')
 @endsection
 
 @section('custom-scripts')
